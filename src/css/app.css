@@ -1,0 +1,19 @@
+@import "./base.css";
+
+@import "./components.css";
+
+
+@import "./pages.css";
+@import "~highlight.js/styles/atom-one-dark.css"; /* Just for demo purpose only for highlighting code */
+@import "./fontawesome-all.css";
+
+.custom-height {
+  height: calc(100% - 4.5rem); /* Adjust the height calculation as needed */
+}
+a{
+  outline: none;
+}
+svg{
+  width: 10px;
+  height: 10px;
+}
